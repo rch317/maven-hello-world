@@ -4,7 +4,8 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - echo "Do fancy pre-build stuff right here..."
+      - echo "Installing jq..."
+      - curl -qL -o jq https://stedolan.github.io/jq/download/linux64/jq && chmod +x ./jq
   build:
     commands:
       - echo "Configuring AWS credentials"

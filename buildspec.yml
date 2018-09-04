@@ -17,7 +17,6 @@ phases:
   build:
     commands:
       - echo "Building..."
-      - mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
       - cd my-app
       - mvn compile
       - java -cp target/classes com.mycompany.app.App

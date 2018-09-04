@@ -25,6 +25,6 @@ phases:
       - echo "Do fancy post-build stuff right here `date`"
       - ls -alR .
 
- artifacts:
-   files: 
-     - target/classes/com/mycompany/app/App.class
+artifacts:
+  files: 
+    -target/classes/com/mycompany/app/App.class

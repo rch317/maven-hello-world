@@ -24,4 +24,5 @@ phases:
     commands:
       - echo "Do fancy post-build stuff right here `date`"
   artifacts:
-    files: my-app/target/classes/com.mycompany.app.App
+    files: 
+      - my-app/target/classes/com.mycompany.app.App

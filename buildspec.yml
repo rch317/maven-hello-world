@@ -23,6 +23,7 @@ phases:
   post_build:
     commands:
       - echo "Do fancy post-build stuff right here `date`"
-  artifacts:
-    files: 
-      - my-app/target/classes/com.mycompany.app.App
+
+artifacts:
+  files: 
+    - my-app/target/classes/com.mycompany.app.App

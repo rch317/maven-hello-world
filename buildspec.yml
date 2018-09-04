@@ -23,7 +23,7 @@ phases:
   post_build:
     commands:
       - echo "Do fancy post-build stuff right here `date`"
-      - ls -ltr .
+      - ls -alR .
 
 # artifacts:
 #   files: 

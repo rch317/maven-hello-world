@@ -27,4 +27,4 @@ phases:
 
 artifacts:
   files: 
-    - target/classes/com/mycompany/app/App.class
+    - my-app/target/classes/com/mycompany/app/App.class
